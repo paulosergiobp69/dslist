@@ -8,7 +8,7 @@ public interface GameMinProjection {
 	// chamada no postman: https://localhpostsot:8080/lists/1/games
 	Long getId();
 	String getTitle();
-	Integer getYear();
+	Integer getGameYear();
 	String getImgUrl();
 	String getShortDescription();
 	Integer getPosition();
